@@ -1,0 +1,26 @@
+  ## 톰캣 관련 명령어
+ 
+  # 1. Tomcat 설치
+  sudo apt-get install tomcat8
+ 
+  # 2. Tomcat 제거
+  sudo apt-get remove tomcat8
+ 
+  # 3. Tomcat 상태 확인
+  ps -ef | grep tomcat
+ 
+  # 4. Tomcat 버전 확인
+  sudo /usr/share/tomcat8/bin/version.sh
+ 
+  # 5. Tomcat 시작
+  sudo service tomcat8 start
+ 
+  # 6. Tomcat 정지
+  sudo service tomcat8 stop
+ 
+  # 7. Tomcat 재시작
+  sudo service tomcat8 restart
+ 
+   #  Tomcat 설치경로
+   /usr/share/tomcat8  →  executable &l ibraries
+   /var/lib/tomcat8  →  conf & webapps
